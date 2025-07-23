@@ -12,7 +12,7 @@ module "account_request_02" {
 
   account_tags = {
     "ABC:Owner"       = "celebal-technologies"
-    "ABC:Division"    = "ENT"
+    "ABC:Division"    = "DEV"
     "ABC:Environment" = "Dev"
     "ABC:CostCenter"  = "123456"
     "ABC:Vended"      = "false"
