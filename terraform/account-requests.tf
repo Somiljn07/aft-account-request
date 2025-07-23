@@ -15,7 +15,7 @@ module "account_request_02" {
     "ABC:Division"    = "ENT"
     "ABC:Environment" = "Dev"
     "ABC:CostCenter"  = "123456"
-    "ABC:Vended"      = "true"
+    "ABC:Vended"      = "false"
     "ABC:DivCode"     = "102"
     "ABC:BUCode"      = "ABC003"
     "ABC:Project"     = "123456"
