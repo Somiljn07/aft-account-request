@@ -2,16 +2,16 @@ module "account_request_01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "kabeer.219302036@muj.manipal.edu"
-    AccountName               = "newaccount"
-    ManagedOrganizationalUnit = "Infrastructure OU"
-    SSOUserEmail              = "praveen.jha@celebaltech.com"
-    SSOUserFirstName          = "praveen"
-    SSOUserLastName           = "jha"
+    AccountEmail              = "sankalp.219302007@muj.manipal.edu"
+    AccountName               = "AFT-workload-account"
+    ManagedOrganizationalUnit = "Workload OU" 
+    SSOUserEmail              = "somiljn02@gmail.com"
+    SSOUserFirstName          = "Somil"
+    SSOUserLastName           = "Jain"
   }
 
   account_tags = {
-    "ABC:Owner"       = "dhruv.dalsania@celebaltech.com"
+    "ABC:Owner"       = "celebal-technologies"
     "ABC:Division"    = "ENT"
     "ABC:Environment" = "Dev"
     "ABC:CostCenter"  = "123456"
@@ -23,7 +23,7 @@ module "account_request_01" {
 
   change_management_parameters = {
     change_requested_by = "Somil Jain"
-    change_reason       = "Update existing account"
+    change_reason       = "AFT-New Account Provisioning Demo"
   }
 
   custom_fields = {
@@ -31,5 +31,5 @@ module "account_request_01" {
     custom2 = "b"
   }
 
-  account_customizations_name = "SANDBOX"
+  account_customizations_name = "DEV"
 }
